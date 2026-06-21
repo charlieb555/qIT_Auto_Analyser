@@ -6,5 +6,13 @@ build-backend = "setuptools.build_meta"
 name = "qIT_Auto_Analyser"
 version = "0.1.0"
 description = "An auto analyser"
-dependencies = {file = ["requirements.txt"]}
+dynamic = ["dependencies"]
 
+[project.scripts]
+qIT_Auto_Analyser = "qIT_Auto_Analyser:qit_analysis"
+
+[tool.setuptools]
+py-modules = ["qIT_Auto_Analyser", "report_builder", "data_sorting", "modelling", "qit_plotter"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
