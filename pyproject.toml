@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "qIT_Auto_Analyser"
 version = "0.1.0"
 description = "An auto analyser"
+dynamic = ["dependencies"]
 
 [project.scripts]
 qit-analyser = "qIT_Auto_Analyser:qit_analysis"
