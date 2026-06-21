@@ -9,7 +9,7 @@ description = "An auto analyser"
 dynamic = ["dependencies"]
 
 [project.scripts]
-qit-analyser = "qIT_Auto_Analyser:qit_analysis"
+qIT_Auto_Analyser = "qIT_Auto_Analyser:qit_analysis"
 
 [tool.setuptools]
 py-modules = ["qIT_Auto_Analyser", "report_builder", "data_sorting", "modelling", "qit_plotter"]
