@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from re import X
 import pandas as pd
 import matplotlib as plt
