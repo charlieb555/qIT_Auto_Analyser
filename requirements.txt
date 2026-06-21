@@ -1,0 +1,10 @@
+fpdf==1.7.2
+inquirer==3.4.1
+matplotlib==3.11.0
+numpy==2.4.6
+pandas==3.0.3
+Pillow==12.2.0
+PyPDF2==3.0.1
+rdkit==2025.3.3
+scikit_learn==1.9.0
+scipy==1.18.0
